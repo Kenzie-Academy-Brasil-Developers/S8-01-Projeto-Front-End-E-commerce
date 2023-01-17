@@ -87,7 +87,7 @@ function criarItemCarrinho(itemCarrinho){
                     carrinho_card_body.appendChild(carrinho_card_titulo);
                         let carrinho_card_preco = document.createElement('span');
                             carrinho_card_preco.setAttribute('class', 'carrinho_card_preco');
-                            carrinho_card_preco.innerHTML = itemCarrinho;
+                            carrinho_card_preco.innerHTML = itemCarrinho.value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
                     carrinho_card_body.appendChild(carrinho_card_preco);
                         let carrinho_card_button = document.createElement('button');
                             carrinho_card_button.setAttribute('class', 'carrinho_card_button');
