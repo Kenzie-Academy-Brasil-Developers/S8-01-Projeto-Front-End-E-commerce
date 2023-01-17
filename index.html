@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rick Jogos</title>
+</head>
+
+<body>
+    <main class="contaner">
+        <header class="menu_header">
+            <div class="contaner_header">
+                <figure class="menu_img">
+                    <a href=""><img src="img/games.png"></a>
+                </figure>
+                <nav class="menu_nav">
+                    <ul class="menu_ul">
+                        <li><a href="">Todos</a></li>
+                        <li id="carro"><a href="">Carros</a></li>
+                        <li id="futebol"><a href="">Futebóis</a></li>
+                        <li id="luta"><a href="">Lutas</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <article class="contaner_principal">
+            <section class="contaner_loja">
+                <!-- <div class="card_gamer" id="card_1">
+                    <figure class="card_img">
+                        <img id="img_1" src="img/carro/among-hill-climber.jpg">
+                    </figure>
+                    <div class="card_body">
+                        <span class="card_categoria"> Carro</span>
+                        <h3 class="card_titulo">Among Hill</h3>
+                        <p class="card_descricao">Desta vez o tripulante de Among Us não está na nave, ele vai
+                            dirigir um carro potente e veloz! </p>
+                        <span class="card_preco">R$ 100.00</span>
+                        <button class="card_button">Adicionar ao carrinho</button>
+                    </div>
+                </div> -->
+                
+            </section>
+            <section class="contaner_carrinho">
+                <div class="carrinho">
+                    <div class="carrinho_menu">
+                        <form class="carrinho_form">
+                            <fieldset>
+                                <p class="carrinho_pesquisa">
+                                    <label hidden for="campoPesquisa">Pesquisa</label>
+                                    <input type="text" name="campoPesquisa" id="campoPesquisa"
+                                        placeholder="Digite aqui sua pesquisa">
+                                </p>
+                                <p class="carrinho_pesquisa_input">
+                                    <button>
+                                        Pesquisar
+                                    </button>
+                                </p>
+                            </fieldset>
+                        </form>
+                        <div class="carrinho_de_compras">
+                            <p class="carrinho_de_compras_titulo">Carrinho de compras</p>
+                            <div class="carrinho_cards">
+                                <div class="carrinho_cards_lista">
+                                    <div class="carrinho_lista_itens">
+                                        <!-- <div class="carrinho_item">
+                                            <figure class="carrinho_card_img">
+                                                <img src="img/carro/among-hill-climber.jpg">
+                                                <span class="itens_repitidos">2x</span>
+                                            </figure>
+                                            <div class="carrinho_card_body">
+                                                <h3 class="carrinho_card_titulo">Among Hill</h3>
+                                                <span class="carrinho_card_preco">R$ 100.00</span>
+                                                <button class="carrinho_card_button">Remover produto</button>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                    <div class="carrinho_footer">
+                                        <div class="carrinho_quantidade_itens">
+                                            <span >Quantidade</span>
+                                            <span id="quantidadeItens">0</span>
+                                        </div>
+                                        <div class="carrinho_quantidade_total">
+                                            <span>Total</span>
+                                            <span id="valorTotal">R$ 0,00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <script src="js/database.js"></script>
+        <script src="js/index.js"></script>
+    </main>
+</body>
+
+</html>
